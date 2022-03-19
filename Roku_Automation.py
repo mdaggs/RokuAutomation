@@ -3,8 +3,8 @@ from roku import Roku
 from datetime import datetime
 from Timer import intervalTimer
 import time
+from config import hellenZaas
 
-hellenZaas = '192.168.0.14'
 roku = Roku(hellenZaas)
 
 for value in roku.commands:
